@@ -4,6 +4,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.smarteist.autoimageslider.SliderView
 
+
+
+
 class infographics : AppCompatActivity() {
     // on below line we are creating a variable
     // for our array list for storing our images.
@@ -26,19 +29,12 @@ class infographics : AppCompatActivity() {
 
         // on below line we are initializing
         // our image url array list.
-        imageUrl = ArrayList()
-
+        var image = intArrayOf(R.drawable.info1, R.drawable.info2)
         // on below line we are adding data to our image url array list.
-        imageUrl =
-            (imageUrl + "https://practice.geeksforgeeks.org/_next/image?url=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fimg-practice%2Fbanner%2Fdsa-self-paced-thumbnail.png&w=1920&q=75") as ArrayList<String>
-        imageUrl =
-            (imageUrl + "https://practice.geeksforgeeks.org/_next/image?url=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fimg-practice%2Fbanner%2Fdata-science-live-thumbnail.png&w=1920&q=75") as ArrayList<String>
-        imageUrl =
-            (imageUrl + "https://practice.geeksforgeeks.org/_next/image?url=https%3A%2F%2Fmedia.geeksforgeeks.org%2Fimg-practice%2Fbanner%2Ffull-stack-node-thumbnail.png&w=1920&q=75") as ArrayList<String>
 
         // on below line we are initializing our
         // slider adapter and adding our list to it.
-        sliderAdapter = SliderAdapter( imageUrl)
+        sliderAdapter = SliderAdapter(image )
 
         // on below line we are setting auto cycle direction
         // for our slider view from left to right.
@@ -49,7 +45,7 @@ class infographics : AppCompatActivity() {
 
         // on below line we are setting scroll time
         // in seconds for our slider view.
-        sliderView.scrollTimeInSec = 3
+        sliderView.scrollTimeInSec = 10
 
         // on below line we are setting auto cycle
         // to true to auto slide our items.
