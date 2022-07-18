@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.malikdawar:drawroute:1.1-rx@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b643588e3ed12945e3ad2315cc169332/transformed/jetified-drawroute-1.1-rx/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b643588e3ed12945e3ad2315cc169332/transformed/jetified-drawroute-1.1-rx/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b643588e3ed12945e3ad2315cc169332/transformed/jetified-drawroute-1.1-rx/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/1a15d515c3787c01918655daf02ea6d7/transformed/jetified-drawroute-1.1-rx/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1a15d515c3787c01918655daf02ea6d7/transformed/jetified-drawroute-1.1-rx/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1a15d515c3787c01918655daf02ea6d7/transformed/jetified-drawroute-1.1-rx/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
