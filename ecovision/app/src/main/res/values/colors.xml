@@ -23,4 +23,5 @@
   <color name="colorGreen">#77C66E</color>
   <color name="grey">#505050</color>
   <color name="lightGrey">#949494</color>
+  <color name="black">#fff</color>
 </resources>
