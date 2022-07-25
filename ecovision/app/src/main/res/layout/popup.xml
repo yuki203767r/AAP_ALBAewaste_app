@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="400dp"
+    tools:context=".MainActivity"
+    android:layout_gravity="center"
+    android:background="@drawable/popup_shape">
+
+    <ImageView
+        android:id="@+id/popupIV"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:src="@drawable/popup_image">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/cross"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+    android:layout_toRightOf="@id/popupIV"
+        android:layout_margin="18dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/cross"></ImageView>
+    <Button
+        android:id="@+id/buttonlearn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Learn More?"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="18dp"
+        android:layout_below="@id/popupIV">
+
+    </Button>
+
+</RelativeLayout>
