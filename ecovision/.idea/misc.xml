@@ -3,13 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_educational_videos.xml" value="0.25" />
         <entry key="..\:/Users/yukil/Downloads/maps-platform-101-android-main/maps-platform-101-android-main/solution-ktx/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/yukil/Downloads/maps-platform-101-android-main/maps-platform-101-android-main/solution-ktx/app/src/main/res/drawable/ic_directions_bike_black_24dp.xml" value="0.18697916666666667" />
         <entry key="..\:/Users/yukil/Downloads/maps-platform-101-android-main/maps-platform-101-android-main/solution-ktx/app/src/main/res/layout/activity_main.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/yukil/Downloads/maps-platform-101-android-main/maps-platform-101-android-main/solution-ktx/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
         <entry key="..\:/Users/yukil/Downloads/maps-platform-101-android-main/maps-platform-101-android-main/solution-ktx/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/drawable/ic_directions_bike_black_24dp.xml" value="0.1" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/drawable/popup_shape.xml" value="0.1" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_display_map.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_educational_videos.xml" value="0.12" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_infographics.xml" value="0.1" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_main.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_slider_item.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/popup.xml" value="0.3298097251585624" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/popup_shape.xml" value="0.1" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
         <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/LIFEHACK-ecovision-_google_map/ecovision/app/src/main/res/layout/activity_infogaphics.xml" value="0.17395833333333333" />
+        <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/LIFEHACK-ecovision-_google_map/ecovision/app/src/main/res/layout/activity_infographics.xml" value="0.1" />
         <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/LIFEHACK-ecovision-_google_map/ecovision/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/LIFEHACK-ecovision-_google_map/ecovision/app/src/main/res/layout/activity_slider_item.xml" value="0.17395833333333333" />
       </map>

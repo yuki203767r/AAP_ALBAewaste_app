@@ -18,13 +18,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:id="@+id/root_layout"
+    >
 
-  <fragment xmlns:map="http://schemas.android.com/apk/res-auto"
-      android:id="@+id/map_fragment"
-      class="com.google.android.gms.maps.SupportMapFragment"
-      android:layout_width="match_parent"
-      android:layout_height="match_parent"
-      map:mapId="YOUR_MAP_ID" />
-
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Show Popup Window"-->
+<!--        android:textAllCaps="false"-->
+<!--        />-->
 </FrameLayout>

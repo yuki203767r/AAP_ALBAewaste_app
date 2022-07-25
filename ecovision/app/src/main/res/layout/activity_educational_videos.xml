@@ -45,6 +45,7 @@
                 android:src="@drawable/search"/>
         </RelativeLayout>
 
+
         <androidx.cardview.widget.CardView
             android:id="@+id/cardView_recommendedVideos"
             android:layout_below="@id/edu_header"
@@ -81,6 +82,7 @@
             </RelativeLayout>
 
         </androidx.cardview.widget.CardView>
+
 
         <RelativeLayout
             android:id="@+id/seeVideos"
@@ -124,6 +126,15 @@
                     android:orientation="vertical">
 
                     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtube_player_view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:autoPlay="false"
+                        app:videoId="rx8NvE2bvkU"
+
+                        />
+
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
                         android:id="@+id/youtube_player_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -157,14 +168,6 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
-                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-                        android:id="@+id/youtube_player_view2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:videoId="rx8NvE2bvkU"
-                        app:autoPlay="false"
-
-                        />
                 </LinearLayout>
 
             </RelativeLayout>
@@ -217,5 +220,26 @@
         <!--        app:itemTextColor="@color/nav_color"-->
         <!--        app:menu="@menu/menu_bottom_navigation_view" />-->
 
+
+                <com.smarteist.autoimageslider.SliderView
+                    android:id="@+id/aslider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:sliderAnimationDuration="600"
+                    app:sliderAutoCycleDirection="back_and_forth"
+                    app:sliderIndicatorAnimationDuration="600"
+                    app:sliderIndicatorEnabled="true"
+                    app:sliderIndicatorGravity="center_horizontal|bottom"
+                    app:sliderIndicatorMargin="15dp"
+                    app:sliderIndicatorOrientation="horizontal"
+                    app:sliderIndicatorPadding="3dp"
+                    app:sliderIndicatorRadius="2dp"
+                    app:sliderIndicatorSelectedColor="#5A5A5A"
+                    app:sliderIndicatorUnselectedColor="#FFF"
+                    app:sliderScrollTimeInSec="1" />
+
+
+
     </RelativeLayout>
+
 </androidx.core.widget.NestedScrollView>
