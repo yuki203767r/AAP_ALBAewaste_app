@@ -58,7 +58,7 @@ class EducationalVideos : AppCompatActivity() {
 
         // on below line we are setting scroll time
         // in seconds for our slider view.
-        sliderView.scrollTimeInSec = 10
+        sliderView.scrollTimeInSec = 4
 
         // on below line we are setting auto cycle
         // to true to auto slide our items.
