@@ -126,15 +126,6 @@
                     android:orientation="vertical">
 
                     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-                        android:id="@+id/youtube_player_view2"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        app:autoPlay="false"
-                        app:videoId="rx8NvE2bvkU"
-
-                        />
-
-                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
                         android:id="@+id/youtube_player_view"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -168,6 +159,15 @@
                     android:layout_height="match_parent"
                     android:orientation="vertical">
 
+                    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                        android:id="@+id/youtube_player_view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:autoPlay="false"
+                        app:videoId="rx8NvE2bvkU"
+
+                        />
+
                 </LinearLayout>
 
             </RelativeLayout>
@@ -183,7 +183,8 @@
             app:cardBackgroundColor="@color/colorGreen"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp"
-            app:cardUseCompatPadding="false">
+            app:cardUseCompatPadding="false"
+            android:id="@+id/vid3">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -219,12 +220,31 @@
         <!--        app:itemIconTint="@color/nav_color"-->
         <!--        app:itemTextColor="@color/nav_color"-->
         <!--        app:menu="@menu/menu_bottom_navigation_view" />-->
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/vid3"
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:layout_margin="16dp"
+            android:elevation="12dp"
+            app:cardBackgroundColor="@color/colorGreen"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <!--on below line we are creating a new text view-->
+
 
 
                 <com.smarteist.autoimageslider.SliderView
                     android:id="@+id/aslider"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
                     app:sliderAnimationDuration="600"
                     app:sliderAutoCycleDirection="back_and_forth"
                     app:sliderIndicatorAnimationDuration="600"
@@ -238,8 +258,11 @@
                     app:sliderIndicatorUnselectedColor="#FFF"
                     app:sliderScrollTimeInSec="1" />
 
+            </RelativeLayout>
 
+        </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
+
 
 </androidx.core.widget.NestedScrollView>
