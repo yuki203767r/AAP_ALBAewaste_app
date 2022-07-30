@@ -34,8 +34,6 @@ class EducationalVideos : AppCompatActivity() {
 //        setContentView(R.layout.activity_educational_videos)
         binding = ActivityEducationalVideosBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        val youTubePlayerView = findViewById<YouTubePlayerView>(binding.youtubePlayerView.id)
-        lifecycle.addObserver(youTubePlayerView)
 
         // on below line we are initializing our slier view.
         sliderView = findViewById(com.google.codelabs.buildyourfirstmap.R.id.aslider)
