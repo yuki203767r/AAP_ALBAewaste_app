@@ -12,7 +12,7 @@ class RewardsActivity : AppCompatActivity() {
 
         RewardsBtn.setOnClickListener {
             var myIntent = Intent(this, RewardsActivity::class.java)
-
+            startActivity(myIntent)
         }
     }
 }

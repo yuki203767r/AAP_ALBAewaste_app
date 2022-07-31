@@ -33,6 +33,7 @@
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/white.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/whitebar.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_account.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_rewards.xml" value="0.1" />
       </map>
     </option>
