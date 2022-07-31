@@ -23,5 +23,12 @@
   <color name="colorGreen">#77C66E</color>
   <color name="grey">#505050</color>
   <color name="lightGrey">#949494</color>
-  <color name="black">#fff</color>
+  <color name="black">#000000</color>
+  <color name="green">#C1DD39</color>
+  <color name="white">#FFFFFF</color>
+  <color name="brown">#736C6C</color>
+  <color name="orange">#FCB874</color>
+  <color name="dark">#52534E</color>
+  <color name="biege">#FDE9D8</color>
+  <color name="yumgreen">#DAF57E</color>
 </resources>

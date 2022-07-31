@@ -25,6 +25,15 @@
         <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/LIFEHACK-ecovision-_google_map/ecovision/app/src/main/res/layout/activity_infographics.xml" value="0.1" />
         <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/LIFEHACK-ecovision-_google_map/ecovision/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/yukil/OneDrive/Documents/GitHub/LIFEHACK-ecovision-_google_map/ecovision/app/src/main/res/layout/activity_slider_item.xml" value="0.17395833333333333" />
+        <entry key="app/src/main/res/drawable/biegesquare.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/brown.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/button_border.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/greenrectangle.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/orangebar.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/rectangle.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/white.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/whitebar.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_rewards.xml" value="0.1" />
       </map>
     </option>
   </component>
