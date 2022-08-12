@@ -294,11 +294,26 @@
                   <entry key="vectorAssetStep">
                     <value>
                       <PersistentState>
+                        <option name="children">
+                          <map>
+                            <entry key="clipartAsset">
+                              <value>
+                                <PersistentState>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/refresh/baseline_refresh_24.xml" />
+                                    </map>
+                                  </option>
+                                </PersistentState>
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
                         <option name="values">
                           <map>
-                            <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_recycle_bin1" />
-                            <entry key="sourceFile" value="C:\Users\yukil\Downloads\recycle-bin1.svg" />
+                            <entry key="color" value="534a4a" />
+                            <entry key="outputName" value="ic_refresh" />
+                            <entry key="sourceFile" value="C:\Users\Shaqilah\Downloads\lamp-svgrepo-com.svg" />
                           </map>
                         </option>
                       </PersistentState>
