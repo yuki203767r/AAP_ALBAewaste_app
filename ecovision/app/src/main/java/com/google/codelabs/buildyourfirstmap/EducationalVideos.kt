@@ -67,5 +67,20 @@ class EducationalVideos : AppCompatActivity() {
         // on below line we are calling start
         // auto cycle to start our cycle.
         sliderView.startAutoCycle()
+
+        RewardsBtn.setOnClickListener {
+            var myIntent = Intent(this, Rewards::class.java)
+            startActivity(myIntent)
+        }
+
+        AccountBtn.setOnClickListener {
+            var myIntent = Intent(this, Account::class.java)
+            startActivity(myIntent)
+        }
+
+        Games.setOnClickListener {
+            var myIntent = Intent(this, GameListPage::class.java)
+            startActivity(myIntent)
+        }
     }
 }

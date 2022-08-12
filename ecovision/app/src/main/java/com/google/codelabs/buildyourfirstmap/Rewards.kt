@@ -35,7 +35,10 @@ class Rewards : AppCompatActivity() {
             startActivity(myIntent)
         }
 
-
+        Games.setOnClickListener {
+            var myIntent = Intent(this, GameListPage::class.java)
+            startActivity(myIntent)
+        }
 
     }
 
