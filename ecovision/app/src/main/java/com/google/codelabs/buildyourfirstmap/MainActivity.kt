@@ -28,7 +28,7 @@ import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.*
-import com.google.codelabs.buildyourfirstmap.BuildConfig.GOOGLE_MAPS_API_KEY
+//import com.google.codelabs.buildyourfirstmap.BuildConfig.GOOGLE_MAPS_API_KEY
 import com.google.codelabs.buildyourfirstmap.place.Place
 import com.google.codelabs.buildyourfirstmap.place.PlaceRenderer
 import com.google.codelabs.buildyourfirstmap.place.PlacesReader

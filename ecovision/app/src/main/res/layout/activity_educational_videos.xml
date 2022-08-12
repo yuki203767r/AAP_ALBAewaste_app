@@ -262,6 +262,70 @@
 
         </androidx.cardview.widget.CardView>
 
+        <Button
+            android:id="@+id/Mapbtn"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Maps"
+            android:textColor="@color/black"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/RewardsBtn"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Rewards"
+            android:textColor="@color/black"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/AccountBtn"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="160dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Account"
+            android:textColor="@color/black"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Education"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="240dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Education"
+            android:textColor="@color/black"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Games"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="340dp"
+            android:background="@drawable/button_border"
+            android:fontFamily="@font/poppins_medium"
+            android:text="Games"
+            android:textColor="@color/black"
+            android:textFontWeight="@integer/material_motion_duration_medium_2"
+            android:textStyle="bold" />
+
     </RelativeLayout>
 
 

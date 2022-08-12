@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.codelabs.buildyourfirstmap.databinding.ActivityEducationalVideosBinding
 import android.R
+import android.content.Intent
 
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.YouTubePlayer
@@ -12,6 +13,7 @@ import androidx.annotation.NonNull
 
 import com.pierfrancescosoffritti.androidyoutubeplayer.core.player.listeners.AbstractYouTubePlayerListener
 import com.smarteist.autoimageslider.SliderView
+import kotlinx.android.synthetic.main.activity_rewards.*
 
 
 class EducationalVideos : AppCompatActivity() {
