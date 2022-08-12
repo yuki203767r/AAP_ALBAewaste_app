@@ -29,12 +29,17 @@
         <entry key="app/src/main/res/drawable/brown.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/button_border.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/greenrectangle.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/greenroundedrectangle.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/orangebar.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/white.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/whitebar.xml" value="0.16" />
-        <entry key="app/src/main/res/layout/activity_account.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_account.xml" value="0.2929397583007813" />
+        <entry key="app/src/main/res/layout/activity_educational_videos.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_infographics.xml" value="0.1598731884057971" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_rewards.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_rewards2.xml" value="0.15070921985815602" />
       </map>
     </option>
   </component>
