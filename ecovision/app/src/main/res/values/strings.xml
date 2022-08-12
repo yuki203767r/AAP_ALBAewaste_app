@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <string name="app_name"></string>
+    <string name="app_name">BuildYourFirstMap</string>
     <string name="title_activity_infographics">infographics</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -26,4 +26,12 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_display_map">display_map</string>
+
+    <string name="count_label">Q%d</string>
+    <string name="question_label">Question</string>
+    <string name="btn_answer">Choice</string>
+    <string name="title_activity_quiz">Quiz</string>
+    <string name="result_title">Result</string>
+    <string name="result_score">%d / 5</string>
+    <string name="btn_try_again">Try Again</string>
 </resources>

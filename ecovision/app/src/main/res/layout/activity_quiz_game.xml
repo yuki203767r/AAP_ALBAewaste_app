@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizGame"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:ignore="OnClick">
+
+    <TextView
+        android:id="@+id/countLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/count_label"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="50dp"
+        android:textSize="22dp" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:text="@string/question_label"
+        android:textSize="22sp"
+        android:layout_marginTop="60dp"/>
+
+    <Button
+        android:id="@+id/answerBtn1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_answer"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="80dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="checkAnswer" />
+
+    <Button
+        android:id="@+id/answerBtn2"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/btn_answer"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="30dp"
+        style="?attr/materialButtonOutlinedStyle"
+        android:onClick="checkAnswer" />
+
+
+
+
+
+</LinearLayout>

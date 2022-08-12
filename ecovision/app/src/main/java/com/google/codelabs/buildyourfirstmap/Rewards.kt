@@ -40,6 +40,8 @@ class Rewards : AppCompatActivity() {
             startActivity(myIntent)
         }
 
+
+
     }
 
 }
