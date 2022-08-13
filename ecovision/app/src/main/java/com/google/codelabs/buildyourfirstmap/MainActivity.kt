@@ -116,6 +116,8 @@ class MainActivity : AppCompatActivity() {
             buttonPopup.setOnClickListener{
                 // Dismiss the popup window
                 popupWindow.dismiss()
+                val intent = Intent(this,Rewards::class.java)
+                startActivity(intent)
             }
 
             // Set a dismiss listener for popup window
