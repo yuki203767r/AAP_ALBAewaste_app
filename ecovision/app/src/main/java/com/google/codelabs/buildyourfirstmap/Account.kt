@@ -15,13 +15,12 @@ class Account : AppCompatActivity() {
             startActivity(myIntent)
         }
 
-        AccountBtn.setOnClickListener {
-            var myIntent = Intent(this, Account::class.java)
-            startActivity(myIntent)
-        }
-
         Education.setOnClickListener {
             var myIntent = Intent(this, EducationalVideos::class.java)
+            startActivity(myIntent)
+        }
+        Games.setOnClickListener {
+            var myIntent = Intent(this, GameListPage::class.java)
             startActivity(myIntent)
         }
     }

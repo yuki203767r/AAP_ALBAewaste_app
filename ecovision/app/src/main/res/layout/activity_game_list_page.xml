@@ -6,83 +6,89 @@
     android:layout_height="match_parent"
     tools:context=".GameListPage">
 
-    <androidx.cardview.widget.CardView
-        android:id="@+id/cardView_gameList"
-        android:layout_width="wrap_content"
-        android:layout_height="220dp"
-        android:layout_margin="16dp"
-        android:elevation="12dp"
-        app:cardBackgroundColor="@color/colorGreen"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp"
-        app:cardUseCompatPadding="false"
-        android:onClick="clickGame1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/game1">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView_gameList"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_margin="16dp"
+            android:elevation="12dp"
+            app:cardBackgroundColor="@color/colorGreen"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="false"
+            android:onClick="clickGame1">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="24dp"
-                android:orientation="vertical">
+                android:layout_height="match_parent"
+                android:id="@+id/game1">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_medium"
-                    android:text="QUIZ GAME"
-                    android:layout_gravity="center"
-                    android:textColor="#fff"
-                    android:textSize="20sp"/>
-            </LinearLayout>
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="24dp"
+                    android:orientation="vertical">
 
-        </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="QUIZ GAME"
+                        android:layout_gravity="center"
+                        android:textColor="#fff"
+                        android:textSize="20sp"/>
+                </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+            </RelativeLayout>
 
-    <androidx.cardview.widget.CardView
-        android:layout_below="@id/cardView_gameList"
-        android:layout_width="wrap_content"
-        android:layout_height="220dp"
-        android:layout_margin="16dp"
-        android:elevation="12dp"
-        app:cardBackgroundColor="@color/colorGreen"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp"
-        app:cardUseCompatPadding="false"
-        android:onClick="clickGame2">
+        </androidx.cardview.widget.CardView>
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/game2">
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/cardView_gameList"
+            android:layout_width="wrap_content"
+            android:layout_height="220dp"
+            android:layout_margin="16dp"
+            android:elevation="12dp"
+            app:cardBackgroundColor="@color/colorGreen"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="false"
+            android:onClick="clickGame2">
 
-            <LinearLayout
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="24dp"
-                android:orientation="vertical">
+                android:layout_height="match_parent"
+                android:id="@+id/game2">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:fontFamily="@font/poppins_medium"
-                    android:text="MEMORY GAME"
-                    android:layout_gravity="center"
-                    android:textColor="#fff"
-                    android:textSize="20sp"/>
-            </LinearLayout>
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="24dp"
+                    android:orientation="vertical">
 
-        </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="MEMORY GAME"
+                        android:layout_gravity="center"
+                        android:textColor="#fff"
+                        android:textSize="20sp"/>
+                </LinearLayout>
 
-    </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
 
     <Button
         android:id="@+id/Mapbtn"
@@ -147,5 +153,7 @@
         android:textColor="@color/black"
         android:textFontWeight="@integer/material_motion_duration_medium_2"
         android:textStyle="bold" />
+
+
 
 </RelativeLayout>

@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <string name="app_name">BuildYourFirstMap</string>
+    <string name="app_name"></string>
     <string name="title_activity_infographics">infographics</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>

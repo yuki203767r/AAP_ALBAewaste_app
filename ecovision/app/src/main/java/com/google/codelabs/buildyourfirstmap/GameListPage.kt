@@ -29,9 +29,10 @@ class GameListPage : AppCompatActivity() {
     }
 
     fun clickGame1(view: View) {
-//        val intent = Intent(this,CelGame::class.java)
-//        startActivity(intent)
+        val intent = Intent(this,QuizGame::class.java)
+        startActivity(intent)
     }
+
     fun clickGame2(view: View) {
         val intent = Intent(this,MemoryGame::class.java)
         startActivity(intent)
