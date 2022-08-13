@@ -34,4 +34,19 @@
         android:textColor="@color/grey"
         android:layout_marginTop="80dp"/>
 
+    <Button
+        android:id="@+id/ReturnToHome"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Return to Home"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        android:textStyle="bold" />
+
+
+
 </LinearLayout>

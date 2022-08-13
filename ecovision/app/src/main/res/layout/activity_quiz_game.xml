@@ -8,6 +8,8 @@
     android:gravity="center"
     tools:ignore="OnClick">
 
+    
+
     <TextView
         android:id="@+id/countLabel"
         android:layout_width="wrap_content"
@@ -22,6 +24,7 @@
         android:id="@+id/questionLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
         android:fontFamily="@font/poppins_medium"
         android:textColor="@color/grey"
         android:text="@string/question_label"
