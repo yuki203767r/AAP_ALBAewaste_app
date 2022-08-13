@@ -20,8 +20,8 @@ class Rewards : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_rewards)
 
-        RewardsBtn.setOnClickListener {
-            var myIntent = Intent(this, Rewards::class.java)
+        Mapbtn.setOnClickListener {
+            var myIntent = Intent(this, map::class.java)
             startActivity(myIntent)
         }
 

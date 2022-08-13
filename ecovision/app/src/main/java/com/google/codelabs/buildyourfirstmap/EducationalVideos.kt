@@ -82,5 +82,10 @@ class EducationalVideos : AppCompatActivity() {
             var myIntent = Intent(this, GameListPage::class.java)
             startActivity(myIntent)
         }
+
+        Mapbtn.setOnClickListener {
+            var myIntent = Intent(this, map::class.java)
+            startActivity(myIntent)
+        }
     }
 }
