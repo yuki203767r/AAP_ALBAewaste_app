@@ -8,7 +8,18 @@
     android:gravity="center"
     tools:ignore="OnClick">
 
-    
+    <Button
+        android:id="@+id/ExitQuiz"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="110dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Return to Home"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_medium_2"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/countLabel"
