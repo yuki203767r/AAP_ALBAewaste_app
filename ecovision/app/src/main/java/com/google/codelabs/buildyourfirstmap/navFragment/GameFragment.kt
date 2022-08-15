@@ -7,6 +7,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.RelativeLayout
+import androidx.cardview.widget.CardView
 import androidx.fragment.app.Fragment
 import com.google.codelabs.buildyourfirstmap.MemoryGame
 import com.google.codelabs.buildyourfirstmap.QuizGame
@@ -42,17 +44,26 @@ class GameFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
 
-//        val view : View = inflater.inflate(R.layout.fragment_game, container, false)
-//        val game1 : Button = view.findViewById(R.id.game1);
-//        game1.setOnClickListener(object : View.OnClickListener {
-//            override fun onClick(v: View?) {
-//                // do something
-//                val intent = Intent(activity, QuizGame::class.java)
-//                startActivity(intent)
-//
-//            }
-//        })
-        return inflater.inflate(R.layout.fragment_game, container, false)
+        val view : View = inflater.inflate(R.layout.fragment_game, container, false)
+        val game1 : RelativeLayout = view.findViewById(R.id.game1);
+        game1.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                // do something
+                val intent = Intent(activity, QuizGame::class.java)
+                startActivity(intent)
+
+            }
+        })
+        val game2 : RelativeLayout = view.findViewById(R.id.game2);
+        game2.setOnClickListener(object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                // do something
+                val intent = Intent(activity,  MemoryGame::class.java)
+                startActivity(intent)
+
+            }
+        })
+        return view
     }
 
     companion object {
@@ -75,17 +86,5 @@ class GameFragment : Fragment() {
             }
     }
 
-    fun clickGame1(view: View) {
-        val intent = Intent(activity, QuizGame::class.java)
-        startActivity(intent)
-    }
-
-
-
-    fun clickGame2(view: View) {
-        val intent = Intent(activity,  MemoryGame::class.java)
-        startActivity(intent)
-
-    }
 
 }

@@ -20,8 +20,7 @@
             app:cardBackgroundColor="@color/colorGreen"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp"
-            app:cardUseCompatPadding="false"
-            android:onClick="clickGame1">
+            app:cardUseCompatPadding="false">
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -59,8 +58,7 @@
             app:cardBackgroundColor="@color/colorGreen"
             app:cardCornerRadius="16dp"
             app:cardElevation="8dp"
-            app:cardUseCompatPadding="false"
-            android:onClick="clickGame2">
+            app:cardUseCompatPadding="false">
 
             <RelativeLayout
                 android:layout_width="match_parent"
