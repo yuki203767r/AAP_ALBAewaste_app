@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.codelabs.buildyourfirstmap.databinding.ActivityResultsBinding
+import kotlinx.android.synthetic.main.activity_results.*
 
 class Results : AppCompatActivity() {
 
@@ -22,6 +23,11 @@ class Results : AppCompatActivity() {
 
         binding.tryAgainBtn.setOnClickListener{
             startActivity(Intent(this@Results, QuizGame::class.java))
+        }
+
+        ReturnToHome.setOnClickListener{
+            var myIntent = Intent(this, Rewards::class.java)
+            startActivity(myIntent)
         }
     }
 }

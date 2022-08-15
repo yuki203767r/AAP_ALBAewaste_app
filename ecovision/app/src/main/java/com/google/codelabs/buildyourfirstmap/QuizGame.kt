@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AlertDialog
 import com.google.codelabs.buildyourfirstmap.databinding.ActivityQuizGameBinding
+import kotlinx.android.synthetic.main.activity_quiz_game.*
 
 class QuizGame : AppCompatActivity() {
 
@@ -44,6 +45,11 @@ class QuizGame : AppCompatActivity() {
 
         // shuffle quiz
         quizData.shuffle()
+
+        ExitQuiz.setOnClickListener{
+            var myIntent = Intent(this, GameListPage::class.java)
+            startActivity(myIntent)
+        }
 
         showNextQuiz()
     }
@@ -117,4 +123,6 @@ class QuizGame : AppCompatActivity() {
         }
 
     }
+
+
 }
