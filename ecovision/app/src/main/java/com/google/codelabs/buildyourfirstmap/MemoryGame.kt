@@ -1,6 +1,7 @@
 package com.google.codelabs.buildyourfirstmap
 
 import android.animation.ArgbEvaluator
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -88,8 +89,11 @@ class MemoryGame : AppCompatActivity() {
             }
             // this event will enable the back function to the button on press
             android.R.id.home -> {
-                finish()
-                return true
+                val intent = Intent(this,Rewards::class.java)
+                intent.putExtra("frag","gamelist")
+                startActivity(intent)
+//                finish()
+//                return true
             }
 
         }

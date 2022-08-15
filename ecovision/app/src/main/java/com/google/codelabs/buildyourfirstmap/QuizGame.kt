@@ -47,8 +47,9 @@ class QuizGame : AppCompatActivity() {
         quizData.shuffle()
 
         ExitQuiz.setOnClickListener{
-            var myIntent = Intent(this, GameListPage::class.java)
-            startActivity(myIntent)
+            val intent = Intent(this,Rewards::class.java)
+            intent.putExtra("frag","gamelist")
+            startActivity(intent)
         }
 
         showNextQuiz()

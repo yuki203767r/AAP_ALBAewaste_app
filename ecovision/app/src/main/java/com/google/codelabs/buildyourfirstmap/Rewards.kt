@@ -34,6 +34,9 @@ class Rewards : AppCompatActivity() {
         if (frag == "education"){
             navController.navigate(R.id.educationalFragment)
         }
+        else if (frag == "gamelist"){
+            navController.navigate(R.id.gameFragment)
+        }
     //        Mapbtn.setOnClickListener {
 //            var myIntent = Intent(this, map::class.java)
 //            startActivity(myIntent)
