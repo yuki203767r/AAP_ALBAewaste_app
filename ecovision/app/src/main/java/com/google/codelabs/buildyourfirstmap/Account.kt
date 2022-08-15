@@ -5,10 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_account.*
 import kotlinx.android.synthetic.main.activity_rewards.*
-import kotlinx.android.synthetic.main.activity_rewards.Education
-import kotlinx.android.synthetic.main.activity_rewards.Games
-import kotlinx.android.synthetic.main.activity_rewards.Mapbtn
-import kotlinx.android.synthetic.main.activity_rewards.RewardsBtn
+//import kotlinx.android.synthetic.main.activity_rewards.Education
+//import kotlinx.android.synthetic.main.activity_rewards.Games
+//import kotlinx.android.synthetic.main.activity_rewards.Mapbtn
+//import kotlinx.android.synthetic.main.activity_rewards.RewardsBtn
 
 class Account : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

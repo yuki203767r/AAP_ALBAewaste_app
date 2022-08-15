@@ -139,7 +139,7 @@ class MainActivity : AppCompatActivity() {
                 0, // X offset
                 0 // Y offset
             )
-        }, 150)
+        }, 200)
 
 
     }

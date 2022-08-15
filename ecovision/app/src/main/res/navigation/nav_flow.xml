@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_flow"
+    app:startDestination="@id/rewardFragment">
+    <fragment
+        android:id="@+id/rewardFragment"
+        android:name="com.google.codelabs.buildyourfirstmap.navFragment.RewardFragment"
+        android:label="fragment_reward"
+        tools:layout="@layout/fragment_reward" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.google.codelabs.buildyourfirstmap.navFragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/educationalFragment"
+        android:name="com.google.codelabs.buildyourfirstmap.navFragment.EducationalFragment"
+        android:label="fragment_educational"
+        tools:layout="@layout/fragment_educational" />
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.google.codelabs.buildyourfirstmap.navFragment.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.google.codelabs.buildyourfirstmap.navFragment.MapFragment"
+        android:label="fragment_map"
+        tools:layout="@layout/fragment_map" />
+</navigation>

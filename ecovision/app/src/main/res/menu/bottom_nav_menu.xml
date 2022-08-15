@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mapFragment"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Map" />
+    <item
+        android:id="@+id/rewardFragment"
+        android:icon="@drawable/ic_baseline_card_giftcard_24"
+        android:title="Reward" />
+    <item
+        android:id="@+id/accountFragment"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Account" />
+    <item
+        android:id="@+id/educationalFragment"
+        android:icon="@drawable/ic_baseline_cast_for_education_24"
+        android:title="Education" />
+    <item
+        android:id="@+id/gameFragment"
+        android:icon="@drawable/ic_baseline_videogame_asset_24"
+        android:title="Game" />
+</menu>

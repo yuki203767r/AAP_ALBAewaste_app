@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".EducationalVideos">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".navFragment.EducationalFragment">
+
+            <RelativeLayout
+                android:id="@+id/edu_header"
+                android:layout_width="match_parent"
+                android:layout_marginTop="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="ECOVISION"
+                    android:textSize="21sp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/img_user"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/user_random"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:layout_toLeftOf="@id/img_user"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/search"/>
+            </RelativeLayout>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView_recommendedVideos"
+                android:layout_below="@id/edu_header"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_margin="16dp"
+                android:elevation="12dp"
+                app:cardBackgroundColor="@color/colorGreen"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="24dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="The videos below serves an introduction to our \nALBA E-Waste Programme.\nDo watch it to learn more!"
+                            android:textColor="#fff"
+                            android:textSize="20sp"/>
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <RelativeLayout
+                android:id="@+id/seeVideos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardView_recommendedVideos"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Educational Videos"
+                    android:textColor="@color/grey"
+                    android:textSize="21sp" />
+
+
+            </RelativeLayout>
+            <androidx.cardview.widget.CardView
+                android:layout_below="@id/seeVideos"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_margin="16dp"
+                android:elevation="12dp"
+                app:cardBackgroundColor="@color/colorGreen"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="false"
+                android:id="@+id/vid1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                            android:id="@+id/youtube_player_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:videoId="qu8tAALNu8w"
+                            app:autoPlay="false"
+                            />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_below="@id/vid1"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_margin="16dp"
+                android:elevation="12dp"
+                app:cardBackgroundColor="@color/colorGreen"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="false"
+                android:id="@+id/vid2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                            android:id="@+id/youtube_player_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:autoPlay="false"
+                            app:videoId="rx8NvE2bvkU"
+
+                            />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_below="@id/vid2"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:layout_margin="16dp"
+                android:elevation="12dp"
+                app:cardBackgroundColor="@color/colorGreen"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="false"
+                android:id="@+id/vid3">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                            android:id="@+id/youtube_player_view3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            app:videoId="lplCDdDFUjI"
+                            app:autoPlay="false"
+
+                            />
+                    </LinearLayout>
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+            <!--        android:id="@+id/bottomNavigationView"-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_alignParentBottom="true"-->
+            <!--        android:background="@drawable/bg_bottom_navigation_view"-->
+            <!--        android:elevation="8dp"-->
+            <!--        app:itemIconTint="@color/nav_color"-->
+            <!--        app:itemTextColor="@color/nav_color"-->
+            <!--        app:menu="@menu/menu_bottom_navigation_view" />-->
+            <androidx.cardview.widget.CardView
+                android:layout_below="@id/vid3"
+                android:layout_width="410dp"
+                android:layout_height="1024dp"
+                android:layout_margin="16dp"
+                android:elevation="12dp"
+                app:cardBackgroundColor="@color/colorGreen"
+                android:id="@+id/infographics"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="false">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <!--on below line we are creating a new text view-->
+
+
+
+                    <com.smarteist.autoimageslider.SliderView
+                        android:id="@+id/aslider"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        app:sliderAnimationDuration="600"
+                        app:sliderAutoCycleDirection="back_and_forth"
+                        app:sliderIndicatorAnimationDuration="600"
+                        app:sliderIndicatorEnabled="true"
+                        app:sliderIndicatorGravity="center_horizontal|bottom"
+                        app:sliderIndicatorMargin="15dp"
+                        app:sliderIndicatorOrientation="horizontal"
+                        app:sliderIndicatorPadding="3dp"
+                        app:sliderIndicatorRadius="2dp"
+                        app:sliderIndicatorSelectedColor="#5A5A5A"
+                        app:sliderIndicatorUnselectedColor="#FFF"
+                        app:sliderScrollTimeInSec="1" />
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:layout_below="@id/infographics">-->
+<!--                <Button-->
+<!--                    android:id="@+id/Mapbtn"-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:background="@drawable/button_border"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    android:text="Maps"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textFontWeight="@integer/material_motion_duration_medium_2"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/RewardsBtn"-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:layout_marginLeft="80dp"-->
+<!--                    android:background="@drawable/button_border"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    android:text="Rewards"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textFontWeight="@integer/material_motion_duration_medium_2"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/AccountBtn"-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:layout_marginLeft="160dp"-->
+<!--                    android:background="@drawable/button_border"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    android:text="Account"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textFontWeight="@integer/material_motion_duration_medium_2"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/Education"-->
+<!--                    android:layout_width="100dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:layout_marginLeft="240dp"-->
+<!--                    android:background="@drawable/button_border"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    android:text="Education"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textFontWeight="@integer/material_motion_duration_medium_2"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/Games"-->
+<!--                    android:layout_width="80dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_alignParentBottom="true"-->
+<!--                    android:layout_marginLeft="340dp"-->
+<!--                    android:background="@drawable/button_border"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    android:text="Games"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textFontWeight="@integer/material_motion_duration_medium_2"-->
+<!--                    android:textStyle="bold" />-->
+<!--            </RelativeLayout>-->
+
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>

@@ -6,10 +6,10 @@ import android.os.Bundle
 import android.view.View
 import kotlinx.android.synthetic.main.activity_game_list_page.*
 import kotlinx.android.synthetic.main.activity_rewards.*
-import kotlinx.android.synthetic.main.activity_rewards.AccountBtn
-import kotlinx.android.synthetic.main.activity_rewards.Education
-import kotlinx.android.synthetic.main.activity_rewards.Mapbtn
-import kotlinx.android.synthetic.main.activity_rewards.RewardsBtn
+//import kotlinx.android.synthetic.main.activity_rewards.AccountBtn
+//import kotlinx.android.synthetic.main.activity_rewards.Education
+//import kotlinx.android.synthetic.main.activity_rewards.Mapbtn
+//import kotlinx.android.synthetic.main.activity_rewards.RewardsBtn
 
 class GameListPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

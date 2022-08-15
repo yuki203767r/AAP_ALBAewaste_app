@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navFragment.AccountFragment">
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="70dp"
+        android:src="@drawable/rectangle" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="My Account"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/Background"
+        android:src="@drawable/greenroundedrectangle" />
+
+    <ImageView
+        android:src="@drawable/user_random"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="270dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emily"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="50dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nelson"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="emily.n@gmail.com"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Birth"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="December 7,1995"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="315dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Queenstown, Singapore"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Num"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="91452389"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/black"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIO"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/grey"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="485dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="I love to cook, sing and exercise. Recycling is the best!  "
+        android:textColor="@color/grey"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="555dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Number of Points: 131,567"
+        android:textColor="@color/grey"
+        android:textSize="25dp" />
+</FrameLayout>
