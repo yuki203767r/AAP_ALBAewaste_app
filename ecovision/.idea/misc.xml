@@ -81,12 +81,14 @@
         <entry key="app/src/main/res/drawable/rectangle.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/white.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/whitebar.xml" value="0.16" />
+        <entry key="app/src/main/res/font/poppins_medium.xml" value="0.18541666666666667" />
         <entry key="app/src/main/res/layout/activity_account.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_quiz.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_quiz_game.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_results.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_rewards.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_quiz.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_map.xml" value="0.2125579833984375" />
       </map>
     </option>
   </component>

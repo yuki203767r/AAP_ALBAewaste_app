@@ -51,7 +51,7 @@
                         android:layout_height="wrap_content"
                         android:layout_below="@id/typeofbin1"
                         android:layout_marginBottom="170dp"
-                        android:text="5 Ang Mo Kio Central 2\nS(569663)"
+                        android:text="5 Ang Mo Kio Central 2, S(569663)"
                         android:textColor="@color/darkgreen"
                         android:textSize="20dp" />
 
@@ -59,7 +59,7 @@
                         android:id="@+id/how"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="120dp"
+                        android:layout_marginTop="100dp"
                         android:fontFamily="@font/poppins_medium"
                         android:text="How"
                         android:textColor="@color/darkgreen"
