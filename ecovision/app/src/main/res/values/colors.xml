@@ -31,6 +31,7 @@
   <color name="dark">#52534E</color>
   <color name="biege">#FDE9D8</color>
   <color name="yumgreen">#DAF57E</color>
-    <color name="color_progress_none">#DC1E0B</color>
+  <color name="color_progress_none">#DC1E0B</color>
   <color name="color_progress_full">#35BA01</color>
+  <color name="darkgreen">#055F2F</color>
 </resources>

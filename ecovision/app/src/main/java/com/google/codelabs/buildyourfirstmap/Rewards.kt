@@ -30,6 +30,10 @@ class Rewards : AppCompatActivity() {
         navController = navHostFragment.navController
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         NavigationUI.setupWithNavController(bottomNavigationView,navController)
+        var frag = intent.getStringExtra("frag")
+        if (frag == "education"){
+            navController.navigate(R.id.educationalFragment)
+        }
     //        Mapbtn.setOnClickListener {
 //            var myIntent = Intent(this, map::class.java)
 //            startActivity(myIntent)

@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/drawable/bar.xml" value="0.1635" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/drawable/bottom_nav.xml" value="0.1635" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/drawable/ic_air_conditioner.xml" value="0.1" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/drawable/ic_dryer.xml" value="0.1" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/drawable/ic_fridge.xml" value="0.1" />
@@ -23,9 +25,13 @@
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_map.xml" value="0.164275956284153" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_map2.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_memory_game.xml" value="0.264" />
-        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_rewards.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/activity_rewards.xml" value="0.2" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/dialog_board_size.xml" value="0.1" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/fragment_first.xml" value="0.21784420289855072" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/fragment_map.xml" value="0.264" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/fragment_reward.xml" value="0.21784420289855072" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/layout/memory_card.xml" value="0.1" />
+        <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25" />
         <entry key="..\:/Users/Shaqilah/Documents/GitHub/AAP_ALBAewaste_app/ecovision/app/src/main/res/menu/menu_memory.xml" value="0.1" />
         <entry key="..\:/Users/yukil/Downloads/maps-platform-101-android-main/maps-platform-101-android-main/solution-ktx/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Users/yukil/Downloads/maps-platform-101-android-main/maps-platform-101-android-main/solution-ktx/app/src/main/res/drawable/ic_directions_bike_black_24dp.xml" value="0.18697916666666667" />

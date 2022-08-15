@@ -55,6 +55,8 @@ import android.view.Gravity
 import android.widget.*
 import android.os.Handler;
 import android.os.Looper
+import androidx.navigation.findNavController
+import com.google.codelabs.buildyourfirstmap.navFragment.EducationalFragment
 
 class MainActivity : AppCompatActivity() {
 
@@ -126,7 +128,8 @@ class MainActivity : AppCompatActivity() {
             }
 
             buttonLearn.setOnClickListener{
-                val intent = Intent(this,EducationalVideos::class.java)
+                val intent = Intent(this,Rewards::class.java)
+                intent.putExtra("frag","education")
                 startActivity(intent)
             }
 

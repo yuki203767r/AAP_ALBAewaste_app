@@ -1,15 +1,17 @@
 package com.google.codelabs.buildyourfirstmap.navFragment
 
+
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.viewpager.widget.ViewPager
 import com.google.codelabs.buildyourfirstmap.R
 import com.google.codelabs.buildyourfirstmap.SliderAdapter
-import com.google.codelabs.buildyourfirstmap.databinding.ActivityEducationalVideosBinding
 import com.google.codelabs.buildyourfirstmap.databinding.FragmentEducationalBinding
 import com.smarteist.autoimageslider.SliderView
+
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -64,7 +66,11 @@ class EducationalFragment : Fragment() {
 
     // on below line we are initializing our slier view.
 //    sliderView = findViewById(com.google.codelabs.buildyourfirstmap.R.id.aslider)
-    sliderView = inflater.inflate(R.layout.fragment_educational,null).findViewById(R.id.aslider)
+
+    val view: View = inflater.inflate(R.layout.fragment_educational, container, false)
+    val sliderView = view.findViewById<View>(R.id.aslider) as SliderView
+
+//    sliderView = inflater.inflate(R.layout.fragment_educational,null).findViewById(R.id.aslider)
 
     // on below line we are initializing
     // our image url array list.
@@ -93,7 +99,12 @@ class EducationalFragment : Fragment() {
     // on below line we are calling start
     // auto cycle to start our cycle.
     sliderView.startAutoCycle()
-    return inflater.inflate(R.layout.fragment_educational, container, false)
+
+    sliderView.setSliderAdapter(sliderAdapter)
+
+    return view
+
+//    return inflater.inflate(R.layout.fragment_educational, container, false)
 
 }
 
